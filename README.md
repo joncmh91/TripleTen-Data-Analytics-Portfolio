@@ -41,7 +41,7 @@ Assessing the contributing factors that dictate vehicle pricings on a used-vehic
 
 4. **Statistical Data Analysis**
 <br>Title: *"Performance (revenue) comparisons between a communication service provider's two prepaid plans." - 
-Establishing the more profitable prepaid plan towards future marketing budget allocation*
+Establishing the more profitable prepaid plan towards future marketing budget allocation.*
    - Working with multiple DataFrames and feature engineering information that is needed.
    - Aggregation with pivot tables; finding monthly usage rates, surcharges, etc.
    - Visualizing user behaviour between both plans, such as sign-up dates, average duration of calls and average volume of data used.
@@ -117,7 +117,8 @@ visitors down the marketing funnel.*
 
 9. **Data Storytelling: A Deeper Look Into Graphs And Visualization**
 <br>Title: *Robot-run Cafe" - 
-Studying the feasibility of opening a wholly robot-run cafe in downtown Los Angeles using interactable visualizations and regular expressions.*
+Studying the feasibility of opening a wholly robot-run cafe in downtown Los Angeles using interactable 
+visualizations and regular expressions.*
     - **N.B.** - The use of Seaborn and Plotly Express libraries together with Plotly Graph Objects were 
      the main focus of this project. Additionally, Regular Expressions (regex) was used for extraction/filtering of useable data.
     - Constructing interactable pie charts for visualizing proportion share of restaurant types (type of food) as well as establishment types (chain vs non-chain).
@@ -158,7 +159,7 @@ maintaining and improving the overall health of the events funnel.*
 11. **Automation, Dashboards and Tableau**
 <br>Title: *"Youtube trends report." - 
 Constructing a dashboard on Tableau that automates visualizations of trends regarding Youtube videos across different regions
-and video categories. Subsequently, generating a report on current trends across the available timeframe.
+and video categories. Subsequently, generating a report on current trends across the available timeframe.*
     - Area chart on highest trending video categories in absolute terms across the past 1.5 years.
     - Area chart on highest trending video categories in relative terms across the past 1.5 years.
     - Pie chart regarding the relative proportion/distribution of trending videos across all major regions studied.
@@ -166,9 +167,9 @@ and video categories. Subsequently, generating a report on current trends across
 <br><br>
     
 12. **Machine Learning: Forecasts and Predictions**
-<br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
-Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
-maintaining and improving the overall health of the events funnel.*
+<br>Title: *"Customer retention study for a fitness gym." - 
+Breaking down customer profiles and behavioural trends using historical data towards predicting churn rates and ultimately, 
+constructing a feasible customer retention strategy.*
     - Ensuring equality of data proportions (sample size equality) by visualizing the frequency distribution of events across 
       time periods for the purpose of an A/B test.
       * Histograms and lineplot visualizations.
