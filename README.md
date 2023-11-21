@@ -156,14 +156,16 @@ maintaining and improving the overall health of the events funnel.*
 <br><br>
 
 11. **Automation, Dashboards and Tableau**
-<br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
-Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
-maintaining and improving the overall health of the events funnel.*
-    - Ensuring equality of data proportions (sample size equality) by visualizing the frequency distribution of events across 
-      time periods for the purpose of an A/B test.
-      * Histograms and lineplot visualizations.
+<br>Title: *"Youtube trends report." - 
+Constructing a dashboard on Tableau that automates visualizations of trends regarding Youtube videos across different regions
+and video categories. Subsequently, generating a report on current trends across the available timeframe.
+    - Area chart on highest trending video categories in absolute terms across the past 1.5 years.
+    - Area chart on highest trending video categories in relative terms across the past 1.5 years.
+    - Pie chart regarding the relative proportion/distribution of trending videos across all major regions studied.
+    - Absolute count on highest trending video categories by each major regions studied.
 <br><br>
-12. dsds
+    
+12. **Machine Learning: Forecasts and Predictions**
 <br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
 Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
 maintaining and improving the overall health of the events funnel.*
