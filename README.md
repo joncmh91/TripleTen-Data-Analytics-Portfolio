@@ -50,7 +50,7 @@ Establishing the more profitable prepaid plan towards future marketing budget al
    - Statistical hypothesis testing 2. - Performing a T-Test to etablish if revenue differs when observing a bigger region compared to all other regions. 
 <br><br>
 
-5. **Integrated Project 1.**
+5. **INTEGRATED PROJECT 1 - A Culmination Of Data Preprocessing, EDA and Statistical Data Analysis** 
 <br>Title: *"Video game forecasts for an online game store" - 
 Determining the most profitable gaming platforms and genres for varying geographical regions, which will allow for more prudent use of future marketing budget.*
    - Determining the period of study for historical analysis.
@@ -129,7 +129,7 @@ visualizations and regular expressions.*
     - Consolidation of streets into groups for interpretability based on ranges of their restaurant density.
 <br><br>
 
-10. **Event-Based Analytics: The Events Funnel**
+10. **INTEGRATED PROJECT 2 - Event Based Analytics And The Events Funnel**
 <br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
 Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
 maintaining and improving the overall health of the events funnel.*
@@ -163,7 +163,7 @@ and video categories. Subsequently, generating a report on current trends across
     - Area chart on highest trending video categories in absolute terms across the past 1.5 years.
     - Area chart on highest trending video categories in relative terms across the past 1.5 years.
     - Pie chart regarding the relative proportion/distribution of trending videos across all major regions studied.
-    - Absolute count on highest trending video categories by each major regions studied.
+    - Sortable table on absolute count of highest trending video categories by each major regions studied.
 <br><br>
     
 12. **Machine Learning: Forecasts and Predictions**
