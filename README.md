@@ -168,13 +168,49 @@ and video categories. Subsequently, generating a report on current trends across
     
 12. **Machine Learning: Forecasts and Predictions**
 <br>Title: *"Customer retention study for a fitness gym." - 
-Breaking down customer profiles and behavioural trends using historical data towards predicting churn rates and ultimately, 
-constructing a feasible customer retention strategy.*
-    - Ensuring equality of data proportions (sample size equality) by visualizing the frequency distribution of events across 
-      time periods for the purpose of an A/B test.
-      * Histograms and lineplot visualizations.
+Breaking down customer profiles and behavioural trends using historical data with the aim towards predicting churn rates and ultimately, 
+constructing a feasible customer retention strategy for the future. Both supervised and unsupervised learning models will be used.*
+    - Exploratory data analysis.
+      * Visualizing feature distribution between churn vs non-churn customers - this aids in determining if certain 
+      features are good/bad churn indicators.
+      * Observing feature correlation using Spearman's Correlation Matrix with the goal to avoid any feature-collinearity.
+    - Predictive Modelling (supervised learning) - Using historical data to train classification models for the
+      prediction of future churn rates.
+      * <u>Logistic Regression</u> (LR) 
+        * Training and comparing a baseline LR model together with an LR model optimized for L2 Ridge regularization; this
+          is to avoid overfitting and multicollinearity. Classification metrics such as *accuracy, 
+          precision, recall, F1 and roc_auc* are used for model comparisons.
+        * Constructing a Confusion Matrix to assess the quality of our model in terms of minimizing *false positives* and 
+          *false negatives*.
+        * Visualizing the model's feature coefficients - This tells us the best churn indicators by measuring the *impact*
+          of each feature in contrast to one another.
+      * <u>Random Forest</u> (RF)  
+        * Training and comparing a baseline RF model together with an RSCV-optimized RF model to avoid overfitting 
+          and multicollinearity. Similarly, classification metrics are used to assess the quality of an optimized model.
+        * Visualizing the RF model's order of feature importance.
+        * Classification metrics between the Logistic Regression and Random Forest models are used to determine
+      the best model for the task. Additionally, LR impact coefficients and RF feature importance values are 
+      compared to determine the overall best churn indicators.
+    - User Clustering (unsupervised learning) - Segmenting users based on available features for the purpose of targeted 
+      marketing and retention strategies.
+      * <u>Hierarchical Clustering</u> - to estimate optimal number of clusters.
+        * Standardizing all feature values to the same scale.
+        * Constructing a dendogram based on a linkage matrix of features - This gives an approximate guideline for a K-Means model.
+      * <u>K-Means Algorithm</u> - as a prediction model.
+        * Calculate K-Means inertia and silhouette scores for a range of *n*-clusters.
+        * Visualizing the various inertia and silhouette scores as data points on a dual-axis line plot.
+        * Determine the optimal clusters (*n*) for K-Means computation based on the inertia plot's elbow point
+          and the highest possible silhouette score.
+        * Training the K-Means model based on the optimal number of clusters.
+        * The clusters are sorted in order of their churn rates; all features are then plotted individually to visualize
+          user cluster distribution.
+    - Conclusions
+      * Target clusters are established as the groups of customers to target in marketing and retention initiatives.
+      * Recommendations are provided based around personalization, digital engagement/brand reinforcement 
+        and promotional incentives.
 <br><br>
-13. fdfdf
+      * 
+13. **CAPSTONE PROJECT - Customer Segmentation**
 <br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
 Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
 maintaining and improving the overall health of the events funnel.*
