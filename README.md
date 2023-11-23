@@ -211,11 +211,10 @@ constructing a feasible customer retention strategy for the future. Both supervi
 <br><br>
 
 13. **CAPSTONE PROJECT - Part 1**
-<br> **Title:** *"Customer Segmentation For An E-commerce Website."*
-<br>Summary: *An E-commerce platform dealing in household goods has a need to personalize unique offerings to distinct customer 
+<br> **Title:** *"Customer Segmentation For An E-commerce Website."* - An E-commerce platform dealing in household goods has a need to personalize unique offerings to distinct customer 
 profiles of their customer base. The client does not have personal and demographic data at their disposal, hence
-website transactional data is used for segmenting purposes.*
-<br> > ***N.B.*** This project is intended to simulate a real-life project environment with a client.
+website transactional data is used for segmenting purposes.
+<br> > ***N.B.*** This project is intended to simulate a real-world project environment with a client.
 
     - Project Decomposition
       * Project perliminaries with client - this involves establishing the problem statement, success indicators,
