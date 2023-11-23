@@ -10,15 +10,15 @@ exploratory data analysis and visualization (matplotlib, seaborn, plotly, etc.),
 
 ### <u>Projects Overview</u>
 1. **Python Basics and Data Preprocessing**
-<br>Title: *"Analyzing music preferences and user behaviours between 2 cities."*
+<br> **Title:** *"Analyzing Music Preferences And User Behaviours Between 2 Cities."*
    - Standardizing column names and its values. 
    - Missing value and duplicate treatment.
    - Testing basic hypotheses with user-defined functions.
 <br><br>
 
 2. **Data Preprocessing (cont.)**
-<br>Title: *"Exploring borrowers' (bank customers) risk of defaulting." - 
-Perusing available customer data on credit worthiness to establish main criteria(s) for future loan approvals.*
+<br> **Title:** "*Exploring Bank Borrowers' Risk Of Defaulting*." - 
+Perusing available customer data on credit worthiness to establish main criteria(s) for future loan approvals.
    - Missing values - Establishing if missing values are random (collection error) or interdependence between other column(s).
    - Illogical values - Processing column values that do not make sense. Example: negative duration of 'days_employed'.
    - Replacing missing values - Filling missing values with averages (mean/median). Example: missing values in the columns 'days_employed" & 'total_income'
@@ -29,7 +29,7 @@ Perusing available customer data on credit worthiness to establish main criteria
 <br><br>
 
 3. **Exploratory Data Analysis (EDA)**
-<br>Title: *"Vehicle price study." -
+<br> **Title:** *"Used Vehicle Price Study." -  
 Assessing the contributing factors that dictate vehicle pricings on a used-vehicle website.*
    - Extracting date-time objects 
    - Features Engineering - Constructing new core features for further analysis and visualization, such as 'age', 'mileage', 'vehicle_condition'.
@@ -40,8 +40,8 @@ Assessing the contributing factors that dictate vehicle pricings on a used-vehic
 <br><br>
 
 4. **Statistical Data Analysis**
-<br>Title: *"Performance (revenue) comparisons between a communication service provider's two prepaid plans." - 
-Establishing the more profitable prepaid plan towards future marketing budget allocation.*
+<br> **Title:** *"Performance Comparisons Between A Communication Service Provider's Prepaid Plans.*" -
+Establishing the more profitable prepaid plan towards future marketing budget allocation.
    - Working with multiple DataFrames and feature engineering information that is needed.
    - Aggregation with pivot tables; finding monthly usage rates, surcharges, etc.
    - Visualizing user behaviour between both plans, such as sign-up dates, average duration of calls and average volume of data used.
@@ -51,8 +51,8 @@ Establishing the more profitable prepaid plan towards future marketing budget al
 <br><br>
 
 5. **INTEGRATED PROJECT 1 - A Culmination Of Data Preprocessing, EDA and Statistical Data Analysis** 
-<br>Title: *"Video game forecasts for an online game store" - 
-Determining the most profitable gaming platforms and genres for varying geographical regions, which will allow for more prudent use of future marketing budget.*
+<br> **Title:** *"Video Game Forecasts For An Online Game Store"* - 
+Determining the most profitable gaming platforms and genres for varying geographical regions, which will allow for more prudent use of future marketing budget.
    - Determining the period of study for historical analysis.
    - Visualizing overall total sales by platform (PlayStation, Xbox, etc.), for each of the last 4 years.
    - Assessing the correlation between user scores and critic scores with overall total sales recorded; Scatterplot together with Pearson's Correlation Coefficient.
@@ -65,7 +65,7 @@ Determining the most profitable gaming platforms and genres for varying geograph
 <br><br>
 
 6. **Statistical Data Analysis (cont.)**
-<br>Title: *"Ride-share analysis (i.e., Uber, Grab)" - 
+<br> **Title:** *"Ride-Share Analysis (i.e., Uber, Grab)" - 
 Analyzing ride patterns, user behaviour/preferences and weather effects in terms of ride-hailing services across the Chicago area.*
    - Preprocessing datetime objects.
    - Extracting (querying) and visualizing top locations and ride-hailing companies across Chicago.
@@ -75,8 +75,8 @@ Analyzing ride patterns, user behaviour/preferences and weather effects in terms
 <br><br>
 
 7. **Business Analytics** 
-<br>Title: *"Marketing Expense Optimization for an events booking platform (i.e., Klook, Eventbee, Showpass)" - 
-Studying business metrics such as user activity, retention rates, conversion rates, purchase volume & size, ad-expenditure, CAC and ROI.*
+<br> **Title:** *"Marketing Expense Optimization For An Events Booking Platform (i.e., Klook, Eventbee, Showpass)"* - 
+Studying business metrics such as user activity, retention rates, conversion rates, purchase volume & size, ad-expenditure, CAC and ROI.
    - User Metrics 
       * User activity - Calculating active users by month, week and day (MAU, WAU, DAU)
       * User sessions - Calculating the average daily visits to the website and consequently, the average duration of a typical session.
@@ -95,9 +95,9 @@ Studying business metrics such as user activity, retention rates, conversion rat
 <br><br>
 
 8. **Making Business Decisions (A/B Testing)** 
-<br>Title: *"A/B test study on website recommendation blocks" - 
-Studying the feasibility of adding recommendation blocks to an e-commerce website, with the goal of chanelling more 
-visitors down the marketing funnel.*
+<br> **Title:** *"A/B Test Study On Website Recommendation Blocks"* - 
+Studying the viability of adding recommendation blocks to an e-commerce website, with the goal of chanelling more 
+visitors down the marketing funnel.
    - Hypothesis prioritization using the ICE/RICE Framework
       * Ranking importance of hypotheses based on *Reach - Impact - Confidence - Effort* parameters.  
    - A/B test analysis
@@ -116,10 +116,10 @@ visitors down the marketing funnel.*
 <br><br>
 
 9. **Data Storytelling: A Deeper Look Into Graphs And Visualization**
-<br>Title: *Robot-run Cafe" - 
+<br> **Title:** *Robot-Run Cafe"* - 
 Studying the feasibility of opening a wholly robot-run cafe in downtown Los Angeles using interactable 
-visualizations and regular expressions.*
-    - **N.B.** - The use of Seaborn and Plotly Express libraries together with Plotly Graph Objects were 
+visualizations and regular expressions.
+    - The use of Seaborn and Plotly Express libraries together with Plotly Graph Objects were 
      the main focus of this project. Additionally, Regular Expressions (regex) was used for extraction/filtering of useable data.
     - Constructing interactable pie charts for visualizing proportion share of restaurant types (type of food) as well as establishment types (chain vs non-chain).
     - Bargraphs to visualize percentage share of restaurant type for chain restaurants only (deemed profitable).
@@ -130,9 +130,9 @@ visualizations and regular expressions.*
 <br><br>
 
 10. **INTEGRATED PROJECT 2 - Event Based Analytics And The Events Funnel**
-<br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
+<br> **Title:** *"Food-Produce App: Testing Effects Of An App's Font Changes On The User Journey."* - 
 Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
-maintaining and improving the overall health of the events funnel.*
+maintaining and improving the overall health of the events funnel.
     - Ensuring equality of data proportions (sample size equality) by visualizing the frequency distribution of events across 
       time periods for the purpose of an A/B test.
       * Histograms and lineplot visualizations.
@@ -157,9 +157,9 @@ maintaining and improving the overall health of the events funnel.*
 <br><br>
 
 11. **Automation, Dashboards and Tableau**
-<br>Title: *"Youtube trends report." - 
+<br> **Title:** *"Youtube Trends Report."* - 
 Constructing a dashboard on Tableau that automates visualizations of trends regarding Youtube videos across different regions
-and video categories. Subsequently, generating a report on current trends across the available timeframe.*
+and video categories. Subsequently, generating a report on current trends across the available timeframe.
     - Area chart on highest trending video categories in absolute terms across the past 1.5 years.
     - Area chart on highest trending video categories in relative terms across the past 1.5 years.
     - Pie chart regarding the relative proportion/distribution of trending videos across all major regions studied.
@@ -167,9 +167,9 @@ and video categories. Subsequently, generating a report on current trends across
 <br><br>
     
 12. **Machine Learning: Forecasts and Predictions**
-<br>Title: *"Customer retention study for a fitness gym." - 
+<br> **Title:** *"Customer Retention Study For A Fitness Gym."* - 
 Breaking down customer profiles and behavioural trends using historical data with the aim towards predicting churn rates and ultimately, 
-constructing a feasible customer retention strategy for the future. Both supervised and unsupervised learning models will be used.*
+constructing a feasible customer retention strategy for the future. Both supervised and unsupervised learning models are used.
     - Exploratory data analysis.
       * Visualizing feature distribution between churn vs non-churn customers - this aids in determining if certain 
       features are good/bad churn indicators.
@@ -209,12 +209,22 @@ constructing a feasible customer retention strategy for the future. Both supervi
       * Recommendations are provided based around personalization, digital engagement/brand reinforcement 
         and promotional incentives.
 <br><br>
+
+13. **CAPSTONE PROJECT - Part 1**
+<br> **Title:** *"Customer Segmentation For An E-commerce Website."*
+<br>Summary: *An E-commerce platform dealing in household goods has a need to personalize unique offerings to distinct customer 
+profiles of their customer base. The client does not have personal and demographic data at their disposal, hence
+website transactional data is used for segmenting purposes.*
+<br> > ***N.B.*** This project is intended to simulate a real-life project environment with a client.
+
+    - Project Decomposition
+      * Project perliminaries with client - this involves establishing the problem statement, success indicators,
+        time period of study, gap analysis, key end users and key decisions resulting to the study, amongst others.
+      * Forming a list of calculated hypotheses to be tested across the timeframe of the study.
+      * ds
+      * ds
+      * ds
+      * sd
+      * sd
       * 
-13. **CAPSTONE PROJECT - Customer Segmentation**
-<br>Title: *"Food-produce app: Testing the effects of an app's font changes on the user journey (behaviour)." - 
-Using an A/A/B test (2 control groups) to study the viability of introducing an entirely new font across the entire application, with the goal of
-maintaining and improving the overall health of the events funnel.*
-    - Ensuring equality of data proportions (sample size equality) by visualizing the frequency distribution of events across 
-      time periods for the purpose of an A/B test.
-      * Histograms and lineplot visualizations.
 
