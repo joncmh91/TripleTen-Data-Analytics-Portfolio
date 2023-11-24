@@ -210,20 +210,78 @@ constructing a feasible customer retention strategy for the future. Both supervi
         and promotional incentives.
 <br><br>
 
-13. **CAPSTONE PROJECT - Part 1**
-<br> **Title:** *"Customer Segmentation For An E-commerce Website."* - An E-commerce platform dealing in household goods has a need to personalize unique offerings to distinct customer 
+13. **CAPSTONE PROJECT - Part 1** (This project is intended to simulate a real-world project environment with a business client.)
+<br> **Title:** *"Customer Segmentation For An E-commerce Website."* - An E-commerce platform dealing in household goods
+has a need to personalize unique offerings to distinct customer 
 profiles of their customer base. The client does not have personal and demographic data at their disposal, hence
 website transactional data is used for segmenting purposes.
-<br> > ***N.B.*** This project is intended to simulate a real-world project environment with a client.
-
     - Project Decomposition
       * Project perliminaries with client - this involves establishing the problem statement, success indicators,
         time period of study, gap analysis, key end users and key decisions resulting to the study, amongst others.
-      * Forming a list of calculated hypotheses to be tested across the timeframe of the study.
-      * ds
-      * ds
-      * ds
-      * sd
-      * sd
-      * 
+      * Generating a list of preliminary hypotheses to be tested across the timeframe of the study.
+      * Specifying and requesting required data for analysis.
+      * Presenting project stage deliverables to the client and their respective completion timeframes.
 
+    - Data Preprocessing
+      * Missing value and duplicates treatment
+      * Investigating extreme values - Example, unit prices valued at $0.00 (discounts?) and 
+        amounts purchased with negative values (returns?). 
+
+    - Exploratory Data Analysis (EDA)
+      * Filtering out timeframes (months) with disproportionaly low sample size.
+      * Spotting outliers by studying frequency distribution of basket size and purchase value metrics.
+      * Visualizing seasonal purchase trends by studying business metrics across months.
+      * Studying business metrics across the days of the week.
+      * Testing the correlation between transaction time-delta and repeat purchase frequency -
+        Jointplot and Spearman's Correlation Coefficient.
+      * Testing the correlation of first-month purchase frequency being a good indicator of
+        future purchase frequency - Contingency Tables and Chi Test.
+      * Studying the correlation/impact of purchase frequency, purchase value and basket size on Lifetime Value.
+      * Feature engineering Price Sensitivity based on percentile values.
+        * > Overall for the purpose of clustering/segmentation, this section has produced engineered features of
+            *Seasonal Shoppers, Transaction Time Delta, Average Purchase Value, Average Purchase Frequency,
+            Average Basket Size, Lifetime Value (LTV) and Price Sensitivity*.
+
+    - Recency, Frequency, Monetary (RFM) Segmentation
+      * Constructing an aggregated RFM table based on invoice dates, revenue and unique customer Id's.
+      * Segmenting customers based on feature quantiles and assigning unique identifiers from a range of 1-4.
+      * Extracting specific combinations of RFM scores that could be potential highlight points for the client.
+        For example, a score of '444' are the best and most profitable customers, while a score of '111' are lost
+        customers who were cheap spending-wise.
+        * > The RFM model is inherently able to produce many more segment types, such is the nature of the attributes
+            subjected to the model; this allows the client to attain a more granular view on their customer base. As such, 
+            a Tableau dashboard is provided for this purpose that displays visualizations of *Segment Proportion of Total Customers (%), 
+            RFM Metric Averages, Revenue Over Time and Business Metrics by Unique Customer ID's*. Otherwise, the K-Means 
+            model summarized below may be used for a higher-level perspective.
+    - K-Means Clustering (segmentation by machine learning)
+      * Correlation Matrix using Spearman's Coefficient for feature set selection and avoidance of multicollinearity.
+      * Hierarchical clustering for estimation of *k*-clusters. 
+      * Optimizing *k*-clusters by calculating simultaneuous inertia and silhouette scores for a range of possible cluster values.
+      * Visualizing inertia and silhouette scores across a lineplot to find the optimal elbow point that coincides 
+        with highest achievable silhouette score.
+      * Training our K-Means algorithm and sorting our clusters (segments) according to Lifetime Value (LTV).
+      * Visualizing each feature's segment/cluster distribution using various strip plots and bar charts, 
+        and concluding what this means for targeted/personalized marketing.
+<br><br>
+
+14. **CAPSTONE PROJECT - Part 2** 
+<br> **Title:** *"SQL Study For A Book Reviews App."* - Using SQL Alchemy. 
+    - Connecting to the database; using the necessary connection string with relevant database config attributes
+      with sqlalchemy's create_engine method.
+    - Selecting and printing all required tables, being "Books", "Authors", "Ratings", "Reviews" and "Publishers".
+    - Creating a function to execute a query into a Dataframe.
+    - Querying books starting from a particular date.
+    - Calculating and joining total reviews and average ratings, grouped for each unique book Id and ordered descendingly.
+    - Filtering books above a certain number of pages to eliminate brochures and similar publications; proceedingly,
+      finding the publisher with the highest number of book releases.
+    - Querying average rating by author, for books with at least a certain number of ratings.
+    - Aggregate review counts for only users who rated books on a high-frequency basis; this 
+      allows one to observe the behaviour of an avid book reader and reviewer.
+<br><br>
+
+15. **CAPSTONE PROJECT - Part 3** (This project aims to simulate a real-world situation of taking over an A/B test that 
+has already started, while assessing its workability/flaws)
+<br> **Title:** *"Improved Recommentation System For An Online Store."* - This study aims to test the viability of adding an 
+improved recommendation system and subsequently an altogether new payment funnel to an online store, using events funnel analysis. 
+    - Connecting to the database; using the necessary connection string with relevant database config attributes
+      with sqlalchemy's create_engine method.
