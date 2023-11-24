@@ -6,7 +6,8 @@ This repository showcases a collection of data analytics projects completed as p
 
 These projects exhibit cumulative proficiency, focusing on various aspects of data analysis.
 This includes the Python language and a heavy emphasis on the Pandas library, data preprocessing, statistical analysis, 
-exploratory data analysis and visualization (matplotlib, seaborn, plotly, etc.), features engineering, predictive modelling, Tableau and SQL amongst others. 
+exploratory data analysis and visualization (matplotlib, seaborn, plotly, etc.), features engineering, predictive modelling 
+(machine learning), Tableau and SQL amongst others. 
 
 ### <u>Projects Overview</u>
 1. **Python Basics and Data Preprocessing**
@@ -264,7 +265,32 @@ website transactional data is used for segmenting purposes.
         and concluding what this means for targeted/personalized marketing.
 <br><br>
 
-14. **CAPSTONE PROJECT - Part 2** 
+14. **CAPSTONE PROJECT - Part 2** (This project aims to simulate a real-world situation of assessing the quality of an on-going A/B test)
+<br> **Title:** *"Improved Recommentation System For An Online Store."* - This study aims to test the viability of adding an 
+improved recommendation system and subsequently an altogether new payment funnel to an online store using events funnel analysis. 
+    - Data Preprocessing and Cleaning Noisy/Bad Data
+      * Removing unique users who were inadvertantly part of 2 concurrent A/B tests as this create misrepresentation of the population.
+      * Filtering for unique users and events that pertain to the correct A/B test.
+      * Filtering for unique users from only specific regions of study. 
+      * Ensuring users and events are within the test period.
+      * Filtering out events that falls beyond the maximum observation window (14 day test period).
+      * Checking for an equal distribution of users between both experiment groups.
+    - EDA and Events Funnel Analysis
+      * Calculating total conversion and next stage conversion rates.
+      * Constructing an events funnel for each of our experiment groups.
+      * Visualizing and comparing average events per day between groups.
+      * Investigating if there are any ongoing promotions that may cause misrepresentation for our test.
+    - A/B Test Results
+      * Conducting 2-proportion Z-tests to ascertain if there is a statistically significant difference in proportion of events 
+        and conversion proportions between control and test groups. This will confirm if the A/B test participants were split correctly.
+      * Testing for stability in cumulative conversion rates between both experiment groups; an unstable horizontal lineplot
+        with frequent spikes and fluctuations tell us an A/B test was run for too short a time-period (ended prematurely).
+    - Conclusions
+      * Recommendations on ensuring neutrality (non-promotional user behaviour), sufficient sample size, equality of 
+        test-split and adequate time duration for the A/B test.
+<br><br>
+
+15. **CAPSTONE PROJECT - Part 3** 
 <br> **Title:** *"SQL Study For A Book Reviews App."* - Using SQL Alchemy. 
     - Connecting to the database; using the necessary connection string with relevant database config attributes
       with sqlalchemy's create_engine method.
@@ -278,10 +304,3 @@ website transactional data is used for segmenting purposes.
     - Aggregate review counts for only users who rated books on a high-frequency basis; this 
       allows one to observe the behaviour of an avid book reader and reviewer.
 <br><br>
-
-15. **CAPSTONE PROJECT - Part 3** (This project aims to simulate a real-world situation of taking over an A/B test that 
-has already started, while assessing its workability/flaws)
-<br> **Title:** *"Improved Recommentation System For An Online Store."* - This study aims to test the viability of adding an 
-improved recommendation system and subsequently an altogether new payment funnel to an online store, using events funnel analysis. 
-    - Connecting to the database; using the necessary connection string with relevant database config attributes
-      with sqlalchemy's create_engine method.
